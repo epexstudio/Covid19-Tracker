@@ -31,7 +31,9 @@ class India extends Component{
                         <Card className="badge badge-warning" style={{ width: '18rem'}}>
                             <Card.Body className="text-center">
                                 <Card.Title>TOTAL CASES</Card.Title>
-                                <h3>{this.state.data.cases}</h3>
+                                <h3 >
+                                    {this.state.data.cases}
+                                    </h3>
                                 <Card.Text>
                                     ( Today : Not Available)
                                 </Card.Text>
