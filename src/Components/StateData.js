@@ -53,7 +53,7 @@ class StateData extends Component{
                                 <Card>
                                     <Card.Header>
                                         <Accordion.Toggle as={Button} variant="primary" eventKey={key}>
-                                            {item} - 
+                                            {item}--
                                             <span className="btn-warning p-1 mr-2">Total Cases - {total_confirmed}</span> 
                                             <span className="btn-primary p-1 mr-2">Active-{total_active} </span>
                                             <span className="btn-success p-1 mr-2">Recovered-{total_recover} </span>

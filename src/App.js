@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import India from './Components/India';
 import World from './Components/World';
+import Home from './Components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
 import {
@@ -17,12 +18,15 @@ class App extends Component{
   }
   render(){
     return(
-      <div className="container-fluid">
+      <div className="container-fluid" style={{paddingRight:'0px',paddingLeft:'0px'}}>
           <Router>
             <Header/>
             <Switch>
               <Route exact path="/">
-                <World/>
+                <Home/>
+              </Route>
+              <Route exact path="/home">
+                <Home/>
               </Route>
               <Route exact path="/india">
                 <India/>

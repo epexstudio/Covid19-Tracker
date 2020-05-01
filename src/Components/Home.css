@@ -1,0 +1,18 @@
+.heading
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(47, 47, 47);
+    padding: 150px;
+    background-image: url('http://starkaerospace.com/wp-content/uploads/2014/06/background-world-map-1.gif');
+    background-size:contain;
+    background-position:top;
+    background: cover;
+    background-repeat: no-repeat;
+}
+.heading img
+{
+    margin-top: 30px;
+    width:430px;
+    height: 100px;
+}

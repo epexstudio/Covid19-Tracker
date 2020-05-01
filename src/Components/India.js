@@ -26,7 +26,7 @@ class India extends Component{
                     <h3>INDIA</h3><br></br>
                 </div>
                 <div className="col-md-12">
-                    <div className="row">
+                    <div className="row" style={{paddingLeft:'12px'}}>
                         <div className="col-md-3">
                         <Card className="badge badge-warning" style={{ width: '18rem'}}>
                             <Card.Body className="text-center">

@@ -6,7 +6,7 @@ class Header extends Component{
     render(){
         return(
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="/world">COVID-19</Navbar.Brand>
+                <Navbar.Brand href="/home"><i class="fas fa-shield-virus"style={{fontSize:'50px'}}></i></Navbar.Brand>
                 <Nav className="mr-auto">
                 <Link className="nav-link" to="/world">World</Link>
                 <Link className="nav-link" to="/india">India</Link>
