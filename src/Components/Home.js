@@ -31,7 +31,7 @@ class Home extends Component{
                         </Card>
                         <Card className="badge badge-danger" style={{ width: '18rem',color:'#000'}}>
                             <Card.Body className="text-center">
-                                <Card.Title>DEATH</Card.Title>
+                                <Card.Title>DEATHs</Card.Title>
                                 <h3 style={{letterSpacing:'1px'}}>{this.state.data.TotalDeaths}</h3>
                                 <Card.Text></Card.Text>
                             </Card.Body>
